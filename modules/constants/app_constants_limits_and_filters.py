@@ -1,13 +1,12 @@
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-#																									#
-#	application:							AROMTA Arbitrage										#
-#	author:									Auden RovelleQuartz										#
-#											                                                		#
-#																									#
-#	author's contact:						auden.rovellequartz@gmail.com							#
-#	notices and information:				https://arbitrage.deborlen.com/software_notices_info	#
-#																									#
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+#                                                                                                 #
+#   application:                       AROMTA Arbitrage                                           #
+#   author:                            Auden RovelleQuartz                                        #
+#                                                                                                 #
+#   author's contact:                  auden.rovellequartz@gmail.com                              #
+#   notices and information:           https://arbitrage.deborlen.com/software_notices_info       #
+#                                                                                                 #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 CONSTANT_TO_SELECT_ALL_RECORDS = 0
 CUT_IN_HALF_DIVISOR = 2

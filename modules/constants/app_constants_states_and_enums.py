@@ -1,13 +1,12 @@
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-#																									#
-#	application:							AROMTA Arbitrage										#
-#	author:									Auden RovelleQuartz										#
-#											                                                		#
-#																									#
-#	author's contact:						auden.rovellequartz@gmail.com							#
-#	notices and information:				https://arbitrage.deborlen.com/software_notices_info	#
-#																									#
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+#                                                                                                 #
+#   application:                       AROMTA Arbitrage                                           #
+#   author:                            Auden RovelleQuartz                                        #
+#                                                                                                 #
+#   author's contact:                  auden.rovellequartz@gmail.com                              #
+#   notices and information:           https://arbitrage.deborlen.com/software_notices_info       #
+#                                                                                                 #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 BUY_ON_EXCHANGE_03 = 1
 FALSE = 0

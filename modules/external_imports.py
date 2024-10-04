@@ -1,13 +1,12 @@
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-#																									#
-#	application:							AROMTA Arbitrage										#
-#	author:									Auden RovelleQuartz										#
-#																									#
-#																									#
-#	author's contact:						auden.rovellequartz@gmail.com							#
-#	notices and information:				https://arbitrage.deborlen.com/software_notices_info	#
-#																									#
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+#                                                                                                 #
+#   application:                       AROMTA Arbitrage                                           #
+#   author:                            Auden RovelleQuartz                                        #
+#                                                                                                 #
+#   author's contact:                  auden.rovellequartz@gmail.com                              #
+#   notices and information:           https://arbitrage.deborlen.com/software_notices_info       #
+#                                                                                                 #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 from __future__ import annotations
 

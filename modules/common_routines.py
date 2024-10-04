@@ -1,13 +1,12 @@
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-#																									#
-#	application:							AROMTA Arbitrage										#
-#	author:									Auden RovelleQuartz										#
-#											                                                		#
-#																									#
-#	author's contact:						auden.rovellequartz@gmail.com							#
-#	notices and information:				https://arbitrage.deborlen.com/software_notices_info	#
-#																									#
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+#                                                                                                 #
+#   application:                       AROMTA Arbitrage                                           #
+#   author:                            Auden RovelleQuartz                                        #
+#                                                                                                 #
+#   author's contact:                  auden.rovellequartz@gmail.com                              #
+#   notices and information:           https://arbitrage.deborlen.com/software_notices_info       #
+#                                                                                                 #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 from .common_routines_library.clear_market_data_supporting_routines import \
     clear_all_market_data

@@ -1,3 +1,14 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+#                                                                                                 #
+#   application:                       AROMTA Arbitrage                                           #
+#   author:                            py4web framework                                           #
+#                                          (Auden RovelleQuartz, edited & maintains)              #
+#                                                                                                 #
+#   author's contact:                  auden.rovellequartz@gmail.com                              #
+#   notices and information:           https://arbitrage.deborlen.com/software_notices_info       #
+#                                                                                                 #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
 import os
 
 # db settings
@@ -19,7 +30,7 @@ REDIS_SERVER = "localhost:6379"
 
 # logger settings
 LOGGERS = [
-    "warning:stdout"
+	"warning:stdout"
 ]  # syntax "severity:filename" filename can be stderr or stdout
 
 # enable PAM
@@ -30,6 +41,6 @@ T_FOLDER = os.path.join(APP_FOLDER, "translations")
 
 # try import private settings
 try:
-    from .settings_private import *
+	from .settings_private import *
 except:
-    pass
+	pass

@@ -1,13 +1,12 @@
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-#																									#
-#	application:							AROMTA Arbitrage										#
-#	author:									Auden RovelleQuartz										#
-#											                                                		#
-#																									#
-#	author's contact:						auden.rovellequartz@gmail.com							#
-#	notices and information:				https://arbitrage.deborlen.com/software_notices_info	#
-#																									#
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+#                                                                                                 #
+#   application:                       AROMTA Arbitrage                                           #
+#   author:                            Auden RovelleQuartz                                        #
+#                                                                                                 #
+#   author's contact:                  auden.rovellequartz@gmail.com                              #
+#   notices and information:           https://arbitrage.deborlen.com/software_notices_info       #
+#                                                                                                 #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 DAYS_OF_MONTH = [
 	1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 
