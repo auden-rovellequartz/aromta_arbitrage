@@ -1,10 +1,10 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 #                                                                                                 #
-#	application:						AROMTA Arbitrage									      #
-#	author:								Auden RovelleQuartz                                       #
+#   application:                       AROMTA Arbitrage                                           #
+#   author:                            Auden RovelleQuartz                                        #
 #                                                                                                 #
-#	author's contact:					auden.rovellequartz@gmail.com                             #
-#	notices and information:			https://arbitrage.deborlen.com/software_notices_info      #
+#   author's contact:                  auden.rovellequartz@gmail.com                              #
+#   notices and information:           https://arbitrage.deborlen.com/software_notices_info       #
 #                                                                                                 #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
