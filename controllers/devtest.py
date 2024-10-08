@@ -176,19 +176,19 @@ def devtest_exchange_01():
 		)
 	form_c = form_submit_button(
 		"CANCEL ALL orders", 
-		"conduit_devtest_order_cancel_all_exchange_01"
+		"conduit_devtest_cancel_all_orders_exchange_01"
 		)
 	form_d = form_submit_button(
 		"place a BUY order", 
-		"conduit_devtest_order_buy_exchange_01"
+		"conduit_devtest_buy_order_exchange_01"
 		)
 	form_e = form_submit_button(
 		"place a SELL order", 
-		"conduit_devtest_order_sell_exchange_01"
+		"conduit_devtest_sell_order_exchange_01"
 		)
 	form_f = form_submit_button(
 		"CANCEL a specific order", 
-		"conduit_devtest_order_cancel_exchange_01"
+		"conduit_devtest_cancel_order_exchange_01"
 		) 
 	return dict(
 		form = form,

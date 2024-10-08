@@ -46,6 +46,118 @@ def conduit_devtest_btcusdt_depth_stream_exchange_02():
 		URL("devtest_btcusdt_depth_stream_exchange_02_b")
 		)
 	return ()
+@action("conduit_devtest_buy_order_exchange_01", method = ["GET", "POST"])
+@action.uses(db, session)
+def conduit_devtest_buy_order_exchange_01():
+	redirect(
+		URL("devtest_buy_order_exchange_01")
+		)
+	return ()
+@action("conduit_devtest_buy_order_exchange_02", method = ["GET", "POST"])
+@action.uses(db, session)
+def conduit_devtest_buy_order_exchange_02():
+	redirect(
+		URL("devtest_buy_order_exchange_02")
+		)
+	return ()
+@action("conduit_devtest_buy_order_exchange_03", method = ["GET", "POST"])
+@action.uses(db, session)
+def conduit_devtest_buy_order_exchange_03():
+	redirect(
+		URL("devtest_buy_order_exchange_03")
+		)
+	return ()
+@action("conduit_devtest_buy_order_exchange_04", method = ["GET", "POST"])
+@action.uses(db, session)
+def conduit_devtest_buy_order_exchange_04():
+	redirect(
+		URL("devtest_buy_order_exchange_04")
+		)
+	return ()
+@action("conduit_devtest_cancel_all_orders_exchange_01", method = ["GET", "POST"])
+@action.uses(db, session)
+def conduit_devtest_cancel_all_orders_exchange_01():
+	redirect(
+		URL("devtest_cancel_all_orders_exchange_01")
+		)
+	return ()
+@action("conduit_devtest_cancel_all_orders_exchange_02", method = ["GET", "POST"])
+@action.uses(db, session)
+def conduit_devtest_cancel_all_orders_exchange_02():
+	redirect(
+		URL("devtest_cancel_all_orders_exchange_02")
+		)
+	return ()
+@action("conduit_devtest_cancel_all_orders_exchange_03", method = ["GET", "POST"])
+@action.uses(db, session)
+def conduit_devtest_cancel_all_orders_exchange_03():
+	redirect(
+		URL("devtest_cancel_all_orders_exchange_03")
+		)
+	return ()
+@action("conduit_devtest_cancel_all_orders_exchange_04", method = ["GET", "POST"])
+@action.uses(db, session)
+def conduit_devtest_cancel_all_orders_exchange_04():
+	redirect(
+		URL("devtest_cancel_all_orders_exchange_04")
+		)
+	return ()
+@action("conduit_devtest_cancel_order_exchange_01", method = ["GET", "POST"])
+@action.uses(db, session)
+def conduit_devtest_cancel_order_exchange_01():
+	redirect(
+		URL("devtest_cancel_order_exchange_01")
+		)
+	return ()
+@action("conduit_devtest_cancel_order_exchange_02", method = ["GET", "POST"])
+@action.uses(db, session)
+def conduit_devtest_cancel_order_exchange_02():
+	redirect(
+		URL("devtest_cancel_order_exchange_02")
+		)
+	return ()
+@action("conduit_devtest_cancel_order_exchange_03", method = ["GET", "POST"])
+@action.uses(db, session)
+def conduit_devtest_cancel_order_exchange_03():
+	redirect(
+		URL("devtest_cancel_order_exchange_03")
+		)
+	return ()
+@action("conduit_devtest_cancel_order_exchange_04", method = ["GET", "POST"])
+@action.uses(db, session)
+def conduit_devtest_cancel_order_exchange_04():
+	redirect(
+		URL("devtest_cancel_order_exchange_04")
+		)
+	return ()
+@action("conduit_devtest_sell_order_exchange_01", method = ["GET", "POST"])
+@action.uses(db, session)
+def conduit_devtest_sell_order_exchange_01():
+	redirect(
+		URL("devtest_sell_order_exchange_01")
+		)
+	return ()
+@action("conduit_devtest_sell_order_exchange_02", method = ["GET", "POST"])
+@action.uses(db, session)
+def conduit_devtest_sell_order_exchange_02():
+	redirect(
+		URL("devtest_sell_order_exchange_02")
+		)
+	return ()
+@action("conduit_devtest_sell_order_exchange_03", method = ["GET", "POST"])
+@action.uses(db, session)
+def conduit_devtest_sell_order_exchange_03():
+	redirect(
+		URL("devtest_sell_order_exchange_03")
+		)
+	return ()
+@action("conduit_devtest_sell_order_exchange_04", method = ["GET", "POST"])
+@action.uses(db, session)
+def conduit_devtest_sell_order_exchange_04():
+	redirect(
+		URL("devtest_sell_order_exchange_04")
+		)
+	return ()
 @action("conduit_devtest_websocket_private_exchange_01", method = ["GET", "POST"])
 @action.uses(db, session)
 def conduit_devtest_websocket_private_exchange_01():
