@@ -148,6 +148,7 @@ def place_sell_order_exchange_01(asset, amount, price, denomination):
 def place_sell_order_exchange_02(asset, amount, price, denomination):
 	return ()
 def place_sell_order_exchange_03(asset, amount, price, denomination):
+	from hashlib import sha256
 	order_response = "UNDEFINED"
 	market = "UNDEFINED"
 	if ((asset == "BTC") and (denomination == "USDT")):
