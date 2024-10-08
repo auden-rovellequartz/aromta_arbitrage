@@ -38,7 +38,7 @@ def start_conductor():
 					previous_error = str(error)
 					error_processing(argument_list)
 			if (
-				(counter_trade_operations % CLEAR_MARKET_DATA_PERIOD) 
+				(counter_trade_operations % TRADE_OPERATIONS_PERIOD) 
 				== 
 				EXECUTION_INDICATOR_TRUE
 				):
@@ -58,7 +58,7 @@ def start_conductor():
 						previous_error = str(error)
 						error_processing(argument_list)
 			if (
-				(counter_trade_executions_monitor % CLEAR_MARKET_DATA_PERIOD) 
+				(counter_trade_executions_monitor % TRADE_EXECUTIONS_MONITOR_PERIOD)
 				== 
 				EXECUTION_INDICATOR_TRUE
 				):
@@ -78,7 +78,7 @@ def start_conductor():
 						previous_error = str(error)
 						error_processing(argument_list)
 			if (
-				(counter_asset_balances_monitor % CLEAR_MARKET_DATA_PERIOD) 
+				(counter_asset_balances_monitor % ASSET_BALANCES_MONITOR_PERIOD) 
 				== 
 				EXECUTION_INDICATOR_TRUE
 				):
@@ -120,11 +120,15 @@ def start_conductor():
 			counter_asset_balances_monitor = (
 				counter_asset_balances_monitor + INCREMENT_TO_NEXT_VALUE
 				)
-			counter_clear_market_data = counter_clear_market_data + INCREMENT_TO_NEXT_VALUE
+			counter_clear_market_data = (
+				counter_clear_market_data + INCREMENT_TO_NEXT_VALUE
+				)
 			counter_trade_executions_monitor = (
 				counter_trade_executions_monitor + INCREMENT_TO_NEXT_VALUE
 				)
-			counter_trade_operations = counter_trade_operations + INCREMENT_TO_NEXT_VALUE
+			counter_trade_operations = (
+				counter_trade_operations + INCREMENT_TO_NEXT_VALUE
+				)
 			time.sleep(ONE_SECOND)
 	except Exception as error:
 		with open("start_conductor_error", "a+") as file:

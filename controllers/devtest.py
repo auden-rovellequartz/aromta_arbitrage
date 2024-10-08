@@ -1,12 +1,13 @@
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-#                                                                                                 #
-#   application:                       AROMTA Arbitrage                                           #
-#   author:                            Auden RovelleQuartz                                        #
-#                                                                                                 #
-#   author's contact:                  auden.rovellequartz@gmail.com                              #
-#   notices and information:           https://arbitrage.deborlen.com/software_notices_info       #
-#                                                                                                 #
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+#																									#
+#	application:							AROMTA Arbitrage										#
+#	author:									Auden RovelleQuartz										#
+#											                                                		#
+#																									#
+#	author's contact:						auden.rovellequartz@gmail.com							#
+#	notices and information:				https://arbitrage.deborlen.com/software_notices_info	#
+#																									#
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 from ..modules.external_imports import *
 from ..modules.framework_imports import *
@@ -37,12 +38,37 @@ def devtest_exchange_01():
 			_href = URL("devtest_home")
 			)
 		)
-	form = form_submit_button("start public websocket", "conduit_devtest_websocket_public_exchange_01")
-	form_b = form_submit_button("start private websocket", "conduit_devtest_websocket_private_exchange_01")
+	form = form_submit_button(
+		"start public websocket", 
+		"conduit_devtest_websocket_public_exchange_01"
+		)
+	form_b = form_submit_button(
+		"start private websocket", 
+		"conduit_devtest_websocket_private_exchange_01"
+		)
+	form_c = form_submit_button(
+		"CANCEL ALL orders", 
+		"conduit_devtest_order_cancel_all_exchange_01"
+		)
+	form_d = form_submit_button(
+		"place a BUY order", 
+		"conduit_devtest_order_buy_exchange_01"
+		)
+	form_e = form_submit_button(
+		"place a SELL order", 
+		"conduit_devtest_order_sell_exchange_01"
+		)
+	form_f = form_submit_button(
+		"CANCEL a specific order", 
+		"conduit_devtest_order_cancel_exchange_01"
+		)
 	return dict(
-		# form = websockets_get_token_exchange_01(),
 		form = form,
 		form_b = form_b,
+		form_c = form_c,
+		form_d = form_d,
+		form_e = form_e,
+		form_f = form_f,
 		home = home,
 		)
 @action("devtest_exchange_02")
@@ -57,11 +83,19 @@ def devtest_exchange_02():
 		)
 	form = form_submit_button("start public websocket", "conduit_devtest_websocket_public_exchange_02")
 	form_b = form_submit_button("start private websocket", "conduit_devtest_websocket_private_exchange_02")
-	form_c = form_submit_button("start btcusdt@depth stream", "conduit_devtest_btcusdt_depth_stream_exchange_02")
+	form_c = form_submit_button("CANCEL ALL orders", "conduit_devtest_order_cancel_all_exchange_02")
+	form_d = form_submit_button("place a BUY order", "conduit_devtest_order_buy_exchange_02")
+	form_e = form_submit_button("place a SELL order", "conduit_devtest_order_sell_exchange_02")
+	form_f = form_submit_button("CANCEL a specific order", "conduit_devtest_order_cancel_exchange_02")
+	form_g = form_submit_button("start btcusdt@depth stream", "conduit_devtest_btcusdt_depth_stream_exchange_02")
 	return dict(
 		form = form,
 		form_b = form_b,
 		form_c = form_c,
+		form_d = form_d,
+		form_e = form_e,
+		form_f = form_f,
+		form_g = form_g,
 		home = home,
 		)
 @action("devtest_exchange_03")
@@ -76,11 +110,19 @@ def devtest_exchange_03():
 		)
 	form = form_submit_button("start public websocket", "conduit_devtest_websocket_public_exchange_03")
 	form_b = form_submit_button("start private websocket", "conduit_devtest_websocket_private_exchange_03")
-	form_c = form_submit_button("test sell order", "conduit_test_sell_order_exchange_03")
+	form_c = form_submit_button("CANCEL ALL orders", "conduit_devtest_order_cancel_all_exchange_03")
+	form_d = form_submit_button("place a BUY order", "conduit_devtest_order_buy_exchange_03")
+	form_e = form_submit_button("place a SELL order", "conduit_devtest_order_sell_exchange_03")
+	form_f = form_submit_button("CANCEL a specific order", "conduit_devtest_order_cancel_exchange_03")
+	form_g = form_submit_button("test sell order", "conduit_test_sell_order_exchange_03")
 	return dict(
 		form = form,
 		form_b = form_b,
 		form_c = form_c,
+		form_d = form_d,
+		form_e = form_e,
+		form_f = form_f,
+		form_g = form_g,
 		home = home,
 		)
 @action("devtest_exchange_04")
@@ -95,9 +137,17 @@ def devtest_exchange_04():
 		)
 	form = form_submit_button("start public websocket", "conduit_devtest_websocket_public_exchange_04")
 	form_b = form_submit_button("start private websocket", "conduit_devtest_websocket_private_exchange_04")
+	form_c = form_submit_button("CANCEL ALL orders", "conduit_devtest_order_cancel_all_exchange_04")
+	form_d = form_submit_button("place a BUY order", "conduit_devtest_order_buy_exchange_04")
+	form_e = form_submit_button("place a SELL order", "conduit_devtest_order_sell_exchange_04")
+	form_f = form_submit_button("CANCEL a specific order", "conduit_devtest_order_cancel_exchange_04")
 	return dict(
 		form = form,
 		form_b = form_b,
+		form_c = form_c,
+		form_d = form_d,
+		form_e = form_e,
+		form_f = form_f,
 		home = home,
 		)
 @action("devtest_home")
