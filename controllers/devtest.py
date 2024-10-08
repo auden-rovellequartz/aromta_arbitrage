@@ -33,128 +33,240 @@ def devtest_btcusdt_depth_stream_exchange_02_b():
 @action.uses(db, session)
 def devtest_buy_order_exchange_01():
 	form = FORM()
+	home = DIV(
+		A(
+			"DevTest Home",
+			_href = URL("devtest_home")
+			)
+		)
 	return dict(
 		form = form,
+		home = home,
 		)
 @action("devtest_buy_order_exchange_02")
 @action.uses("devtest/devtest_buy_order_exchange_02.html")
 @action.uses(db, session)
 def devtest_buy_order_exchange_02():
 	form = FORM()
+	home = DIV(
+		A(
+			"DevTest Home",
+			_href = URL("devtest_home")
+			)
+		)
 	return dict(
 		form = form,
+		home = home,
 		)
 @action("devtest_buy_order_exchange_03")
 @action.uses("devtest/devtest_buy_order_exchange_03.html")
 @action.uses(db, session)
 def devtest_buy_order_exchange_03():
 	form = FORM()
+	home = DIV(
+		A(
+			"DevTest Home",
+			_href = URL("devtest_home")
+			)
+		)
 	return dict(
 		form = form,
+		home = home,
 		)
 @action("devtest_buy_order_exchange_04")
 @action.uses("devtest/devtest_buy_order_exchange_04.html")
 @action.uses(db, session)
 def devtest_buy_order_exchange_04():
 	form = FORM()
+	home = DIV(
+		A(
+			"DevTest Home",
+			_href = URL("devtest_home")
+			)
+		)
 	return dict(
 		form = form,
+		home = home,
 		)
 @action("devtest_cancel_all_orders_exchange_01")
 @action.uses("devtest/devtest_cancel_all_orders_exchange_01.html")
 @action.uses(db, session)
 def devtest_cancel_all_orders_exchange_01():
 	form = FORM()
+	home = DIV(
+		A(
+			"DevTest Home",
+			_href = URL("devtest_home")
+			)
+		)
 	return dict(
 		form = form,
+		home = home,
 		)
 @action("devtest_cancel_all_orders_exchange_02")
 @action.uses("devtest/devtest_cancel_all_orders_exchange_02.html")
 @action.uses(db, session)
 def devtest_cancel_all_orders_exchange_02():
 	form = FORM()
+	home = DIV(
+		A(
+			"DevTest Home",
+			_href = URL("devtest_home")
+			)
+		)
 	return dict(
 		form = form,
+		home = home,
 		)
 @action("devtest_cancel_all_orders_exchange_03")
 @action.uses("devtest/devtest_cancel_all_orders_exchange_03.html")
 @action.uses(db, session)
 def devtest_cancel_all_orders_exchange_03():
 	form = FORM()
+	home = DIV(
+		A(
+			"DevTest Home",
+			_href = URL("devtest_home")
+			)
+		)
 	return dict(
 		form = form,
+		home = home,
 		)
 @action("devtest_cancel_all_orders_exchange_04")
 @action.uses("devtest/devtest_cancel_all_orders_exchange_04.html")
 @action.uses(db, session)
 def devtest_cancel_all_orders_exchange_04():
 	form = FORM()
+	home = DIV(
+		A(
+			"DevTest Home",
+			_href = URL("devtest_home")
+			)
+		)
 	return dict(
 		form = form,
+		home = home,
 		)
 @action("devtest_cancel_order_exchange_01")
 @action.uses("devtest/devtest_cancel_order_exchange_01.html")
 @action.uses(db, session)
 def devtest_cancel_order_exchange_01():
 	form = FORM()
+	home = DIV(
+		A(
+			"DevTest Home",
+			_href = URL("devtest_home")
+			)
+		)
 	return dict(
 		form = form,
+		home = home,
 		)
 @action("devtest_cancel_order_exchange_02")
 @action.uses("devtest/devtest_cancel_order_exchange_02.html")
 @action.uses(db, session)
 def devtest_cancel_order_exchange_02():
 	form = FORM()
+	home = DIV(
+		A(
+			"DevTest Home",
+			_href = URL("devtest_home")
+			)
+		)
 	return dict(
 		form = form,
+		home = home,
 		)
 @action("devtest_cancel_order_exchange_03")
 @action.uses("devtest/devtest_cancel_order_exchange_03.html")
 @action.uses(db, session)
 def devtest_cancel_order_exchange_03():
 	form = FORM()
+	home = DIV(
+		A(
+			"DevTest Home",
+			_href = URL("devtest_home")
+			)
+		)
 	return dict(
 		form = form,
+		home = home,
 		)
 @action("devtest_cancel_order_exchange_04")
 @action.uses("devtest/devtest_cancel_order_exchange_04.html")
 @action.uses(db, session)
 def devtest_cancel_order_exchange_04():
 	form = FORM()
+	home = DIV(
+		A(
+			"DevTest Home",
+			_href = URL("devtest_home")
+			)
+		)
 	return dict(
 		form = form,
+		home = home,
 		)
 @action("devtest_sell_order_exchange_01")
 @action.uses("devtest/devtest_sell_order_exchange_01.html")
 @action.uses(db, session)
 def devtest_sell_order_exchange_01():
 	form = FORM()
+	home = DIV(
+		A(
+			"DevTest Home",
+			_href = URL("devtest_home")
+			)
+		)
 	return dict(
 		form = form,
+		home = home,
 		)
 @action("devtest_sell_order_exchange_02")
 @action.uses("devtest/devtest_sell_order_exchange_02.html")
 @action.uses(db, session)
 def devtest_sell_order_exchange_02():
 	form = FORM()
+	home = DIV(
+		A(
+			"DevTest Home",
+			_href = URL("devtest_home")
+			)
+		)
 	return dict(
 		form = form,
+		home = home,
 		)
 @action("devtest_sell_order_exchange_03")
 @action.uses("devtest/devtest_sell_order_exchange_03.html")
 @action.uses(db, session)
 def devtest_sell_order_exchange_03():
 	form = FORM()
+	home = DIV(
+		A(
+			"DevTest Home",
+			_href = URL("devtest_home")
+			)
+		)
 	return dict(
 		form = form,
+		home = home,
 		)
 @action("devtest_sell_order_exchange_04")
 @action.uses("devtest/devtest_sell_order_exchange_04.html")
 @action.uses(db, session)
 def devtest_sell_order_exchange_04():
 	form = FORM()
+	home = DIV(
+		A(
+			"DevTest Home",
+			_href = URL("devtest_home")
+			)
+		)
 	return dict(
 		form = form,
+		home = home,
 		)
 @action("devtest_exchange_01")
 @action.uses("devtest/devtest_exchange_01.html")
