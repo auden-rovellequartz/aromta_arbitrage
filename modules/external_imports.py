@@ -59,6 +59,7 @@ from dataclasses import dataclass
 from datetime import date 
 from datetime import timedelta 
 from eth_account import Account
+from hashlib import sha256
 from itertools import count
 from itertools import islice
 from os import path

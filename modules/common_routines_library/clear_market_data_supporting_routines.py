@@ -54,13 +54,7 @@ def clear_all_market_data():
     db.wsx04_status_messages_btcusd.truncate("RESTART IDENTITY CASCADE")
     db.commit()
     return ()
-def clear_market_data_process():
-    clear_market_data_x01_process()
-    clear_market_data_x02_process()
-    clear_market_data_x03_process()
-    clear_market_data_x04_process() 
-    return ()
-def clear_market_data_x01_process():
+def clear_market_data_x01():
     limit = MARKET_DATA_RECORDS_LIMIT // CUT_IN_HALF_DIVISOR
     wsx01_raw_data_btcusd_historical_24h_records = db(
         (db.wsx01_raw_data_btcusd_historical_24h.id > CONSTANT_TO_SELECT_ALL_RECORDS)
@@ -91,7 +85,7 @@ def clear_market_data_x01_process():
             x.delete_record()
             db.commit()
     return ()
-def clear_market_data_x02_process():
+def clear_market_data_x02():
     limit = MARKET_DATA_RECORDS_LIMIT // CUT_IN_HALF_DIVISOR
     wsx02_raw_data_btcusdt_historical_24h_records = db(
         (db.wsx02_raw_data_btcusdt_historical_24h.id > CONSTANT_TO_SELECT_ALL_RECORDS)
@@ -122,7 +116,7 @@ def clear_market_data_x02_process():
             x.delete_record()
             db.commit()
     return ()
-def clear_market_data_x03_process():
+def clear_market_data_x03():
     limit = MARKET_DATA_RECORDS_LIMIT // CUT_IN_HALF_DIVISOR
     httpx03_raw_data_btcusdt_historical_24h_records = db(
         (db.httpx03_raw_data_btcusdt_historical_24h.id > CONSTANT_TO_SELECT_ALL_RECORDS)
@@ -153,7 +147,7 @@ def clear_market_data_x03_process():
             x.delete_record()
             db.commit()
     return ()
-def clear_market_data_x04_process():
+def clear_market_data_x04():
     limit = MARKET_DATA_RECORDS_LIMIT // CUT_IN_HALF_DIVISOR
     wsx04_raw_data_btcusd_historical_24h_records = db(
         (db.wsx04_raw_data_btcusd_historical_24h.id > CONSTANT_TO_SELECT_ALL_RECORDS)
