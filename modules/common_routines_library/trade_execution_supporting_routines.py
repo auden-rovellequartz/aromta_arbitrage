@@ -164,7 +164,8 @@ def place_sell_order_exchange_03(asset, amount, price, denomination):
 			"volume": amount,
 		}
 		concatenated_values = "BTCUSDT" + price + request_id + "1" + "0" + amount + "fd1a3c117e8ef1ae5f3444abf225ab839d6614ac0dc101829ac23d2ee9c1a9c7"
-		signature = hmac.new("397597769aef3a65f489860c994426a229d051e2f0535b94dfe9c05f0706fec8".encode(), concatenated_values.encode(), hashlib.sha256).hexdigest()
+		# signature = hmac.new("397597769aef3a65f489860c994426a229d051e2f0535b94dfe9c05f0706fec8".encode(), concatenated_values.encode(), hashlib.sha256).hexdigest()
+		signature = sha256(concatenated_values.encode()).hexdigest()
 		headers = {
 			"content-type": "application/json",
 			"login-token": API_KEY_EXCHANGE_03,
