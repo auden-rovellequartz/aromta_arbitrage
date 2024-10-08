@@ -393,6 +393,10 @@ def devtest_exchange_03():
 		"CANCEL a specific order", 
 		"conduit_devtest_cancel_order_exchange_03"
 		) 
+	form_f = form_submit_button(
+		"test sell order", 
+		"conduit_test_sell_order_exchange_03"
+		) 
 	return dict(
 		form = form,
 		form_b = form_b,
