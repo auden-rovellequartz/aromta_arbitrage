@@ -261,6 +261,8 @@ def conduit_test_sell_order_exchange_03():
 	with open("_probe_20241003_001", "a+") as file:
 		file.write("\n\n===========================\n\n")
 		file.write(str(order_response))
+		file.write("\n\n===========================\n\n")
+		file.write(str(get_timestamp_formatted()))
 
 	redirect(
 		URL("devtest_exchange_03")
